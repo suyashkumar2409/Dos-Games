@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1416321624 source:c:\projects\c++\reversed\listimplementation.cpp
+	<iostream>
+	"list.h"
+
+1416321378 c:\projects\c++\reversed\list.h
+	"wall.h"
+
+1416315206 c:\projects\c++\reversed\wall.h
+
+1416324565 source:c:\projects\c++\reversed\main.cpp
+	<iostream>
+	"list.h"
+	"player.h"
+	<ctime>
+	<cstdlib>
+	<conio.h>
+	<unistd.h>
+
+1416320960 c:\projects\c++\reversed\player.h
+
+1416321674 source:c:\projects\c++\reversed\playerimplementation.cpp
+	<iostream>
+	"player.h"
+
+1416321520 source:c:\projects\c++\reversed\wallimplementation.cpp
+	<iostream>
+	"wall.h"
+	<ctime>
+	<cstdlib>
+

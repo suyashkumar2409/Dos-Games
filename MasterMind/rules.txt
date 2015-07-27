@@ -1,0 +1,27 @@
+Welcome to Mastermind!
+
+This game is based on the classical board game-Mastermind.
+In this game, the computer hides a numerical code from you. You have to guess the code.
+
+You are given a limited number of turns. In each turn, you tell the computer a code that you think MIGHT be the code the computer has hidden. The computer will then tell you the following things-
+1. The computer will give you a \"R\", if there is one digit which belongs to the hidden code, and its position is ALSO Correct. 
+2. The computer will give you a \"W\", if there is one digit which belongs to the hidden code, but its position is WRONG.
+3. The computer won't give you anything if the digit doesnt belong to the hidden code.
+
+NOTE: The \"R\" and \"W\" aren't in the order of digits.
+
+EXAMPLE:
+If hidden code is - 12345
+You propose a code - 24378
+The computer will give you the result- \"RWW\"
+Here \"R\" corresponds to 3 and the \"W\"s correspond to 3 and 4, however in the game, you don't know that. You will not be told the numbers which \"R\" and \"W\" correspond to.
+
+Your proposed code is valid for checking only if:
+1. No digit is repeated
+2. The number of digits is equal to the number of digits in the code(You will be told this number when you select your difficulty level)
+3. The digits are between 1-8
+
+If your proposed code matches, you win!! 
+If you run out of turns, you lose :(
+
+The number of turns and number of digits can be selected while playing a new game.

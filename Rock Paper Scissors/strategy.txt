@@ -1,0 +1,23 @@
+ask if experienced player or not
+if experienced, the user of program should start with scissors
+
+
+
+1. start with rock
+2. If(win)
+	higher probab of winning move
+   else
+	switch cycle between rps 
+
+algorithm(tells probability of what OPPONENT will throw)-
+1. initially rock's value is higher, if opponent is experienced, scissors is higher.
+2. keep a counter of how many times you lose in a row. If you keep losing, add a percentage of current value of opponents winning throw, and subtract same amount from others.
+3. If you win, reset the counter, and increase probability of opponents cyclically from r->p->s.
+4. Keep a counter of what the opponent has been throwing, if it is the same, increase it, and if not decrease it, and increase the probability of the corresponding winning proportional to this counter.
+
+functions required:
+     function to tell what to throw                       done
+1. a function to tell you whether you win or not          done
+2. probability change because of number of throws         done
+3. probability change because of win                      done
+4. probability change because of loss                     done
